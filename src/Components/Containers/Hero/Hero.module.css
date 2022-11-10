@@ -1,5 +1,21 @@
-.Div {
-    align-items: center;
-    margin: 10px;
+.Container{
+    height: 100vh;
+    padding-top: 2rem;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*-------for the buttons---------*/
+.Cta {
+    margin-top: 2.2rem;
+    display: flex;
+    gap: 1.2rem;
     justify-content: center;
+}
+/*-------for the icons---------*/
+.Icon {
+    text-align: center;
+    margin-top: 0.8rem;
 }
