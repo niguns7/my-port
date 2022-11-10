@@ -2,7 +2,7 @@ import React from 'react';
 import classes from "./Hero.module.css";
 import CTA from './CTA';
 import Aux from '../../../hoc/Aux';
-import me from "../../assets/image1.png";
+import photo from "../../assets/image.png";
 import HeaderSocial from './HeaderSocial';
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
       
 
       <div className='me'>
-        <img src={me} alt='me'/>
+        <img src={photo} alt='me'/>
       </div>
     </header>
     
