@@ -20,6 +20,15 @@
     margin-top: 0.8rem;
 }
 
+.Icon a {
+    color: white;
+    padding: 0.4rem;
+}
+
+.Icon a :hover {
+    color: var(--color-primary);
+}
+
 .me {
     margin-top: -250px;
     max-width: 100%;
