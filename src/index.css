@@ -56,6 +56,7 @@ h1 {
 
 section {
     margin-top: 8rem; /*For all section*/
+    height: 100vh;
 }
 /*text ot the top of section*/
 section > h2,
