@@ -1,3 +1,5 @@
-.Image {
+.Div {
     align-items: center;
+    margin: 10px;
+    justify-content: center;
 }
