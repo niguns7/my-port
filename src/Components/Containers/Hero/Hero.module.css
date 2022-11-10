@@ -19,3 +19,9 @@
     text-align: center;
     margin-top: 0.8rem;
 }
+
+.me {
+    margin-top: -250px;
+    max-width: 100%;
+
+}
