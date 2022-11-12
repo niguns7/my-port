@@ -1,7 +1,9 @@
 import React from 'react';
-//import classes from "./About.module.css"
+import "./About.css"
 import ME from "../../../assets/about.jpg";
-import {FaAward} from 'react-icons/fa'
+import {FaAward} from 'react-icons/fa';
+import {FiUsers} from 'react-icons/fi';
+import {VscFolder} from 'react-icons/vsc';
 
 const About = () => {
   return (
@@ -11,13 +13,13 @@ const About = () => {
 
       <div className='container about_container'>
         <div className='about_me'>
-          <div className='about_me'>
+          <div className='about_me-image'>
             <img src={ME} alt="about_image"/>
           </div>
         </div>
 
         <div className='about_content'>
-          <div className='about_card'>
+          <div className='about_cards'>
             <article className='about_card'>
               <FaAward className='about_icon' />
               <h5>Experiences</h5>
@@ -25,17 +27,24 @@ const About = () => {
             </article>
 
             <article className='about_card'>
-              <FaAward className='about_icon' />
-              <h5>Experiences</h5>
-              <small>3+ Years Working</small>
+              <FiUsers className='about_icon' />
+              <h5>Clients</h5>
+              <small>10+</small>
             </article>
 
             <article className='about_card'>
-              <FaAward className='about_icon' />
-              <h5>Experiences</h5>
-              <small>3+ Years Working</small>
+              <VscFolder className='about_icon' />
+              <h5>Projects</h5>
+              <small>10+</small>
             </article>
           </div>
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled
+              </p>
+
+            <a href='#contact' className='btn btn-primary'> Contact me</a>
         </div>
 
       </div>
