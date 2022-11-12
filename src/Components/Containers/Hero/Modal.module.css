@@ -3,3 +3,21 @@
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .Image{
+        height: 100vh;
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .Image{
+        height: 100vh;
+        max-width: 150rem;
+
+    }
+
+    
+}
