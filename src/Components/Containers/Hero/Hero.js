@@ -10,7 +10,7 @@ const Hero = () => {
     <Aux>
     
     <HeaderSocial />
-    <header >
+    <header>
       <div className={classes.Container}>
         <h5> Hello I'm</h5>
         <h1> Nirgun Subedi </h1>
