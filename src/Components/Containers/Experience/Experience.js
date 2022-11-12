@@ -13,28 +13,39 @@ const Experience = () => {
             <span>HTML</span>
             <div className='progress-line'><span></span></div>
           </div>
-          <div className='info'>
-            <span>CSS</span>
-            <div className='progress-line'><span></span></div>
-          </div>
-          <div className='info'>
-            <span>JAVASCRIPT</span>
-            <div className='progress-line'><span></span></div>
-          </div>
-          <div className='info'>
-            <span>REACT.JS</span>
-            <div className='progress-line'><span></span></div>
-          </div>
-          <div className='info'>
-            <span>TAILWIND</span>
-            <div className='progress-line'><span></span></div>
-          </div>
-          <div className='info'>
-            <span>PHOTOSHOP</span>
-            <div className='progress-line'><span></span></div>
+
+          <div className='bar'>
+            <div className='info'>
+              <span>CSS</span>
+              <div className='progress-line'><span></span></div>
+            </div>
           </div>
 
-          
+          <div className='bar'>
+            <div className='info'>
+              <span>JAVASCRIPT</span>
+              <div className='progress-line'><span></span></div>
+            </div>
+          </div>
+          <div className='bar'>
+            <div className='info'>
+              <span>REACT.JS</span>
+              <div className='progress-line'><span></span></div>
+            </div>
+          </div>
+          <div className='bar'>
+            <div className='info'>
+              <span>TAILWIND</span>
+              <div className='progress-line'><span></span></div>
+            </div>
+          </div>
+          <div className='bar'>
+            <div className='info'>
+              <span>PHOTOSHOP</span>
+              <div className='progress-line'><span></span></div>
+            </div>
+          </div>
+
         </div>
 
       </div>
